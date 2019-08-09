@@ -34,6 +34,7 @@ ui <- fluidPage(theme = "leaflet_adj.css",
   br(),
   sidebarLayout(
     sidebarPanel(
+      p("Click on each state to learn more about a threatened or endangered species found there!"),
       h1(textOutput("state")),
       br(),
       #imageOutput("spimg"),
